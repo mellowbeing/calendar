@@ -1,0 +1,97 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+/* Calendar Structure */
+.calendarWrapper {
+  width: 700px;
+  margin: 20px auto;
+}
+
+.calendarOuter {
+  float: left;
+  width: 620px;
+  height: 720px;
+  background: #ECECEC;
+  border-left: 1px solid #D5D5D5;
+  box-sizing: border-box;
+}
+
+.calendarContainer {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+}
+
+
+
+/* Slot */
+.calendarSlot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 4px 8px;
+  background: #FFF;
+  border-top: 1px solid #D6D6D6;
+  border-bottom: 1px solid #D6D6D6;
+  border-right: 1px solid #D6D6D6;
+  border-left: 4px solid #4B6EA9;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.calendarSlot h2 {
+  font-size: 13px;
+  font-family: 'Helvetica', 'Arial', 'lucida grande', sans-serif;
+  line-height: 1.5;
+  color: #4B6EA9;
+  word-break: break-word;
+}
+
+.calendarSlot h3 {
+  font-size: 10px;
+  font-weight: normal;
+  font-family: 'Helvetica', 'Arial', 'lucida grande', sans-serif;
+  color: #797979;
+  word-break: break-word;
+}
+
+
+
+/* Timeline */
+.timeline {
+  float: left;
+  width: 70px;
+  margin: -7px 10px 0 0;
+}
+
+.timeline li {
+  height: 30px;
+  padding: 2px 0 0 0;
+  font-size: 10px;
+  font-family: 'Helvetica', 'Arial', 'lucida grande', sans-serif;
+  line-height: 1.2;
+  text-align: right;
+  color: #A7A7A7;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+.timeline li:nth-child(odd) {
+  padding: 0;
+}
+
+.timeline li em {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  color: #797979;
+}
